@@ -1,0 +1,42 @@
+/* this is a global definition to the entire page (from <html> to </html>) */
+html { 
+  font-size: 12px;
+  font-family: "Alan Sans", sans-serif; /* from Google Fonts, font-family sets the font(s) you want to apply to your HMML */
+  background-color: #00539f;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black; /* horizontal offset, vertical offset, blur radius, color of shadow*/
+}
+
+body {
+  width: 600px;
+  margin: 50px auto auto auto; /* first value if for top/botton, second is for sides*/
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* top, right, bottom, left */
+  border: 5px solid black;
+}
+
+p,
+li {
+  font-size: 16px; /* px stands for pixel */
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+p,
+ul {
+  margin: 0 auto;
+}
+
+img {
+  display: block; /* give the image block behavior (its an inline element so by default does not have margin, width, etc properties) */
+  margin: 0 auto 5px auto;
+  max-width: 100%; /* constrains the image to be only as large as the width set on the body */
+  border: 1px solid black;
+}
